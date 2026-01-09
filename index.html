@@ -1,0 +1,161 @@
+<!DOCTYPE html>
+<html lang="ja">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>AI×ライティング｜お仕事のご案内</title>
+    <meta name="description" content="ご契約ありがとうございます。業務開始に向けた4つのステップと確認フォームのご案内です。">
+    <meta name="robots" content="noindex, nofollow">
+    <link rel="stylesheet" href="styles.css">
+    <!-- Google Fonts: Inter for numerals/English -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;600&display=swap" rel="stylesheet">
+</head>
+<body>
+
+    <!-- Sticky Progress Nav -->
+    <nav class="sticky-nav" aria-label="進捗ナビゲーション">
+        <div class="nav-container">
+            <span class="nav-label">FLOW</span>
+            <ul class="step-dots">
+                <li class="active">1.フォーム</li>
+                <li>2.LINE</li>
+                <li>3.進行</li>
+                <li>4.面談</li>
+            </ul>
+        </div>
+    </nav>
+
+    <main class="container">
+        <!-- Hero Section -->
+        <section class="hero" aria-labelledby="hero-title">
+            <div class="hero-content">
+                <span class="badge">契約成立</span>
+                <h1 id="hero-title">AI×ライティング<br>お仕事のご案内</h1>
+                <p class="lead">ご契約ありがとうございます。<br>仮払いが完了し、契約が成立しましたので、今回のお仕事の進め方をご案内します。</p>
+                
+                <div class="hero-action">
+                    <p class="next-action-label">まず、はじめにやること</p>
+                    <a href="https://forms.gle/GXq8tmjDXNzZfjyr6" target="_blank" rel="noopener noreferrer" class="btn btn-primary btn-large">
+                        確認フォームを開く
+                        <span class="icon-arrow">→</span>
+                    </a>
+                    <p class="note">※フォーム送信後、案内に沿って公式LINE登録へ進んでください</p>
+                </div>
+            </div>
+        </section>
+
+        <!-- Process Steps -->
+        <section class="steps" aria-label="全体の流れ">
+            <h2 class="section-title">全体の流れ（4ステップ）</h2>
+
+            <!-- STEP 1 (Highlighted) -->
+            <article class="card step-card step-highlight" id="step1">
+                <div class="step-header">
+                    <span class="step-number">STEP 01</span>
+                    <span class="step-time">所要時間：約1分</span>
+                </div>
+                <h3 class="step-title">確認フォームの送信</h3>
+                <p class="step-desc">以下のボタンからフォームを開き、必要事項を入力して送信してください。</p>
+                <div class="card-action">
+                    <a href="https://forms.gle/GXq8tmjDXNzZfjyr6" target="_blank" rel="noopener noreferrer" class="btn btn-primary">
+                        確認フォームを開く
+                    </a>
+                </div>
+            </article>
+
+            <!-- STEP 2 -->
+            <article class="card step-card">
+                <div class="step-header">
+                    <span class="step-number">STEP 02</span>
+                </div>
+                <h3 class="step-title">公式LINEの登録</h3>
+                <p class="step-desc">フォーム送信後の完了画面にある案内に沿って、公式LINEへ登録してください。</p>
+            </article>
+
+            <!-- STEP 3 -->
+            <article class="card step-card">
+                <div class="step-header">
+                    <span class="step-number">STEP 03</span>
+                </div>
+                <h3 class="step-title">案内に沿って進行</h3>
+                <p class="step-desc">LINE上で届く案内に沿って、業務を進めてください。</p>
+            </article>
+
+            <!-- STEP 4 -->
+            <article class="card step-card">
+                <div class="step-header">
+                    <span class="step-number">STEP 04</span>
+                    <span class="tag-required">必須</span>
+                </div>
+                <h3 class="step-title">オンライン面談に参加</h3>
+                <p class="step-desc">フィードバック会（オンライン面談）へ参加してください。</p>
+            </article>
+        </section>
+
+        <!-- Important Notice -->
+        <section class="important-notice" aria-labelledby="notice-title">
+            <div class="notice-box">
+                <div class="notice-icon">!</div>
+                <div class="notice-content">
+                    <h2 id="notice-title" class="notice-title">重要なお知らせ</h2>
+                    <p>フィードバック会への参加までが必須範囲です。完了が確認できない場合、評価に影響する可能性があります。</p>
+                </div>
+            </div>
+        </section>
+
+        <!-- Completion Checklist -->
+        <section class="completion" aria-labelledby="completion-title">
+            <h2 id="completion-title" class="section-title">最終チェック</h2>
+            <div class="checklist card">
+                <ul>
+                    <li><label><input type="checkbox" disabled checked> 確認フォームを送信した</label></li>
+                    <li><label><input type="checkbox" disabled checked> 公式LINEに登録した</label></li>
+                    <li><label><input type="checkbox" disabled checked> 面談の日程を確認した</label></li>
+                </ul>
+                <div class="completion-action">
+                    <p class="instruction">すべて完了したら、クラウドワークス/ランサーズのメッセージで以下の文言をご連絡ください。</p>
+                    <div class="copy-area">
+                        <input type="text" value="完了" readonly id="copyTarget" class="copy-input">
+                        <button type="button" class="btn btn-secondary" id="copyBtn">
+                            「完了」をコピー
+                        </button>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <!-- FAQ -->
+        <section class="faq" aria-labelledby="faq-title">
+            <h2 id="faq-title" class="section-title">よくある質問</h2>
+            <dl class="faq-list">
+                <div class="faq-item">
+                    <dt>どこまでが必須ですか？</dt>
+                    <dd>フィードバック会（オンライン面談）への参加までが必須となります。</dd>
+                </div>
+                <div class="faq-item">
+                    <dt>フォーム送信後はどうすればいいですか？</dt>
+                    <dd>フォーム完了画面、または自動返信メール等の案内に従って公式LINEへご登録ください。</dd>
+                </div>
+                <div class="faq-item">
+                    <dt>進め方で困ったときは？</dt>
+                    <dd>ご不明点があれば、メッセージからお気軽にご連絡ください。</dd>
+                </div>
+            </dl>
+        </section>
+
+    </main>
+
+    <footer>
+        <p>どうぞよろしくお願いいたします。</p>
+    </footer>
+
+    <!-- Toast Notification -->
+    <div id="toast" class="toast" role="alert" aria-hidden="true">
+        クリップボードにコピーしました
+    </div>
+
+    <script src="script.js"></script>
+</body>
+</html>
